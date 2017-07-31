@@ -1,0 +1,127 @@
+@charset "UTF-8";
+.opensimbody {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 76%;
+	line-height: 1.4;
+	background-color: #555;
+}
+
+.opensimh1{
+	margin: 0;	
+	padding: 10px 0px 20px 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #659434;
+}
+.opensimh2{
+	font-size:18px;
+	margin: 0;
+	padding: 5px 20px 5px 20px;
+}
+h3{
+	margin:0;
+	padding:0;
+}
+.opensimp {
+	margin: 0;
+	padding: 0px 0px 0px 35px;
+	line-height: 1.6em;
+	font-size:12px;
+}
+
+a img {
+	border: none;
+}
+a:link {
+	color: #659434;
+	text-decoration: underline;
+}
+a:visited {
+	color: #659434;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+.opensimcontainer {
+	width: 1024px;
+	background-color: #FFF;
+	background-image: url(images/body.jpg);
+	background-repeat: repeat-y;
+	margin: 0px auto 0px auto;
+}
+.header {
+	height: 104px;
+	width: 1024px;
+	background-image: url(images/header.jpg);
+}
+.content-background {
+	width: 960px;
+	background-image: url(images/body.jpg);
+	display: block;
+}
+.sidebar1 {
+	width: 304px;
+	padding: 20px 20px 0px 20px;
+	float: left;
+}
+.content {
+	width: 700px;
+	padding: 20px 0px 0px 20px;
+	float: left;
+}
+.content ul, .content ol { 
+	padding: 0px 15px 15px 40px;
+}
+ul.nav {
+	list-style: none;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	font-size: 10px;
+}
+ul.nav li {
+	color: #659434;
+	font-size: 1.4em;
+}
+ul.nav a, ul.nav a:visited {
+	padding: 5px 5px 5px 15px;
+	display: block;
+	width: 160px;
+	text-decoration: none;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
+	color: #999;
+	text-decoration: underline;
+}
+.footer {
+	position: relative;
+	clear: both;
+	background-image: url(images/footer.jpg);
+	height: 69px;
+}
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+#map_canvas{
+	margin-left:15px;
+}
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
