@@ -2,7 +2,12 @@
 session_start();
 
  # connect to the database
-        include 'connect.php';
+ @mysql_connect("localhost", "sean", "CT188HQkent")
+ or die("Err:Conn");
+
+# select the specified database
+$rs=@mysql_select_db("sean", $conn)
+ or die("Err:Db");
 
 $tbl_name="opensim"; // Table name
 
