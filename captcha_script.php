@@ -1,4 +1,3 @@
-[sean@cd captcha]$ cat captcha.php
 <?php session_start();
 header("Expires: Mon, 26 Jul 1997 05:00:00 GMT");
 header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
@@ -32,8 +31,6 @@ Header ('Content-type: image/jpeg');
 imagejpeg($im,NULL,100);
 ImageDestroy($im);
 ?>
-###
-[sean@cd captcha]$ cat captcha_demo.php
 <html>
 <head>
 <title>CAPTCHA Demo</title>
@@ -52,8 +49,6 @@ ImageDestroy($im);
 </form>
 </body>
 </html>
-###
-[sean@cd captcha]$ cat captcha_script.php
 <!-- captcha_script.php -->
 <?php session_start() ?>
 <HTML>

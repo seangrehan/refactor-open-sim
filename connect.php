@@ -1,4 +1,3 @@
-[sean@cd session_new]$ cat connect.php
 <?php
 
 # PHP to MySQL connection script

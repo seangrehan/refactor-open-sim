@@ -1,4 +1,3 @@
-[sean@cd session_new]$ cat checklogin.php
 <?php
 session_start();
 

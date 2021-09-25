@@ -1,5 +1,4 @@
-[sean@cd session_new]$ cat logout.php
- <?php
+<?php
  session_start();
  unset($_SESSION['user_logged_in']);
  ?>
