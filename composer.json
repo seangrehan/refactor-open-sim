@@ -1,0 +1,15 @@
+{
+    "name": "seangrehan/refactor-open-sim",
+    "description": "A refactoring project for a legacy test website",
+    "autoload": {
+        "psr-4": {
+            "OpenSim\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sean Grehan"
+        }
+    ],
+    "require": {}
+}
